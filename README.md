@@ -9,10 +9,17 @@ It uses an index file (fitch.txt) to know what to delete. It sometimes fails to 
 
 ## Installation:
 
+### Requirements:
+- git
+- sed
+- awk
+- fish of course
+
 Can be installed through any other plugin manager, or manually installed like this:
 
 ```
-WIP
+curl https://raw.githubusercontent.com/flatfuzzball/fitch.fish/main/completions/fitch.fish > $__fish_config_dir/completions/fitch.fish
+curl https://raw.githubusercontent.com/flatfuzzball/fitch.fish/main/functions/fitch.fish > $__fish_config_dir/functions/fitch.fish
 ```
 
 ## Usage:
